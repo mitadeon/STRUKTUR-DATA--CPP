@@ -1,0 +1,16 @@
+/*  1. Mulai
+2. Jika (FRONT = -1) maka
+       Tampilkan "Antrian kosong, tidak ada data untuk dihapus"
+       Selesai
+3. Untuk i = 1 sampai 10 lakukan langkah 4–8:
+4.     Jika (FRONT = -1 atau FRONT > REAR) maka
+            Tampilkan "Antrian kosong, proses delete dihentikan"
+            Hentikan proses
+5.     DATA ← QUEUE[FRONT]
+6.     Tampilkan "Record ke-", i, " dengan nilai ", DATA, " dihapus dari antrian."
+7.     FRONT ← FRONT + 1
+8.     Jika (FRONT > REAR) maka
+            FRONT ← -1
+            REAR ← -1
+9. Selesai
+*/

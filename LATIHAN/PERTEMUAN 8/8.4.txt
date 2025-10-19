@@ -1,0 +1,19 @@
+Algoritma Menghapus Isi Double Ended Queue dari Kanan
+
+Tujuan:
+Menghapus elemen dari sisi kanan (Rear end) satu per satu hingga deque menjadi kosong.
+
+Langkah-langkah Algoritma:
+
+Mulai
+Inisialisasi Front, Rear, dan MAX sesuai kondisi deque saat ini.
+Siapkan perulangan untuk menghapus data satu per satu dari kanan.
+Periksa kondisi kosong:
+Jika Front == -1, tampilkan pesan “Deque kosong, proses delete dihentikan.”
+Hentikan perulangan.
+Ambil data dari Deque[Rear] dan tampilkan data yang dihapus.
+Jika Front == Rear, artinya hanya ada satu data — set Front = Rear = -1 (deque menjadi kosong).
+Jika Rear == 0, maka set Rear = MAX - 1 (bergerak melingkar ke kiri).
+Jika tidak, kurangi Rear = Rear - 1.
+Ulangi langkah 4–8 sampai deque kosong.
+Selesai.

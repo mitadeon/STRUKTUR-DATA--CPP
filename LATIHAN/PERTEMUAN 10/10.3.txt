@@ -1,0 +1,11 @@
+3. Penerapan Aplikasi Stack dengan Array
+
+Aplikasi Stack dengan Array digunakan untuk menyimpan data dalam urutan tertentu dengan batas kapasitas tetap.
+Implementasinya dilakukan menggunakan indeks array dan variabel top sebagai penunjuk elemen teratas.
+Contoh penerapan:
+
+Undo/Redo pada aplikasi (misal Microsoft Word).
+
+Pemrosesan tanda kurung dalam ekspresi matematika.
+
+Membalik urutan karakter (string reversal).

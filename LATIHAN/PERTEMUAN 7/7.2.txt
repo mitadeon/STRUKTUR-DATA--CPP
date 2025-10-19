@@ -1,0 +1,39 @@
+A. Algoritma Insert (Enqueue) Sebuah Record
+
+Mulai
+
+Periksa apakah antrian penuh, dengan kondisi:
+(Rear + 1) % MAX == Front
+Jika ya, tampilkan pesan “Queue Overflow” dan berhenti.
+
+Jika antrian kosong (Front == -1), maka set:
+Front = Rear = 0
+
+Jika tidak kosong, ubah posisi Rear secara melingkar:
+Rear = (Rear + 1) % MAX
+
+Masukkan data baru ke posisi Queue[Rear].
+Tampilkan pesan “Data berhasil dimasukkan ke antrian”.
+
+Selesai.
+
+
+B. Algoritma Delete (Dequeue) Sebuah Record
+
+Mulai
+
+Periksa apakah antrian kosong, dengan kondisi:
+Front == -1
+Jika ya, tampilkan pesan “Queue Underflow” dan berhenti.
+Ambil data dari posisi Queue[Front].
+
+Jika Front == Rear, berarti data terakhir dihapus — set:
+Front = Rear = -1
+(artinya antrian kembali kosong)
+
+Jika tidak, geser posisi Front secara melingkar:
+Front = (Front + 1) % MAX
+
+Tampilkan data yang dihapus.
+
+Selesai.

@@ -1,0 +1,61 @@
+a. Algoritma Mengisi Stack1 (PUSH1)
+Tujuan: Menambahkan data ke Stack 1
+ALGORITMA PUSH1
+
+1.  Jika (TOP1 + 1 = TOP2) maka
+2.      Tampilkan "Stack Penuh (Overflow)"
+3.  Else
+4.      TOP1 ← TOP1 + 1
+5.      STACK[TOP1] ← DATA      // simpan data ke posisi TOP1
+6.      Tampilkan "Data berhasil ditambahkan ke Stack 1"
+7.  EndIf
+
+Penjelasan:
+Stack1 tumbuh dari kiri ke kanan.
+Overflow terjadi bila TOP1 + 1 == TOP2, artinya ruang antara kedua stack sudah habis.
+
+b. Algoritma Menghapus Isi Stack1 (POP1)
+Menghapus data dari Stack 1
+ALGORITMA POP1
+
+1.  Jika (TOP1 = -1) maka
+2.      Tampilkan "Stack 1 Kosong (Underflow)"
+3.  Else
+4.      DATA ← STACK[TOP1]
+5.      TOP1 ← TOP1 - 1
+6.      Tampilkan "Data berhasil dihapus dari Stack 1"
+7.  EndIf
+
+Penjelasan:
+Underflow terjadi ketika TOP1 = -1 → Stack1 tidak memiliki elemen lagi.
+
+c. Algoritma Mengisi Stack2 (PUSH2)
+ Menambahkan data ke Stack 2
+ALGORITMA PUSH2
+
+1.  Jika (TOP1 + 1 = TOP2) maka
+2.      Tampilkan "Stack Penuh (Overflow)"
+3.  Else
+4.      TOP2 ← TOP2 - 1
+5.      STACK[TOP2] ← DATA      // simpan data ke posisi TOP2
+6.      Tampilkan "Data berhasil ditambahkan ke Stack 2"
+7.  EndIf
+
+Penjelasan:
+Stack2 tumbuh dari kanan ke kiri (berlawanan arah dengan Stack1).
+Overflow juga terjadi jika TOP1 + 1 == TOP2.
+
+d. Algoritma Menghapus Isi Stack2 (POP2)
+Menghapus data dari Stack 2
+ALGORITMA POP2
+
+1.  Jika (TOP2 = MAX) maka
+2.      Tampilkan "Stack 2 Kosong (Underflow)"
+3.  Else
+4.      DATA ← STACK[TOP2]
+5.      TOP2 ← TOP2 + 1
+6.      Tampilkan "Data berhasil dihapus dari Stack 2"
+7.  EndIf
+Penjelasan:
+
+Underflow terjadi jika TOP2 = MAX, artinya Stack2 kosong dan tidak ada data yang bisa dihapus.

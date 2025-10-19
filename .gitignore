@@ -1,0 +1,8 @@
+# Abaikan file executable
+*.exe
+*.out
+*.o
+*.obj
+
+# Abaikan folder setting VSCode
+.vscode/

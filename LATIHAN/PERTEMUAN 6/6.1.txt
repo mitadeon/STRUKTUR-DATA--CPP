@@ -1,0 +1,18 @@
+/*  Mengisi Antrian Record per Record Sebanyak 10 Record
+1. Mulai
+2. Inisialisasi:
+       FRONT ← -1
+       REAR ← -1
+3. Untuk i = 1 sampai 10 lakukan langkah 4–8:
+4.     Jika (REAR = MAX - 1) maka
+            Tampilkan "Antrian penuh, pengisian dihentikan."
+            Hentikan proses pengisian (keluar dari perulangan)
+5.     Tampilkan "Masukkan record ke-", i, ": "
+6.     Baca DATA
+7.     Jika (FRONT = -1) maka
+            FRONT ← 0        // antrian pertama kali diisi
+8.     REAR ← REAR + 1
+       QUEUE[REAR] ← DATA
+       Tampilkan "Record ke-", i, " telah dimasukkan ke antrian."
+9. Selesai
+*/

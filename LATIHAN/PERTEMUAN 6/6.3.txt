@@ -1,0 +1,43 @@
+// A.ALGORITMA INISIALISASI STACK
+/*  1. Mulai
+2. Set FRONT ← -1
+3. Set REAR ← -1
+4. Tampilkan "Antrian telah diinisialisasi (kosong)"
+5. Selesai
+*/
+
+// B.INSERT SEBUAH RECORS (ENQUEUE)
+/*  1. Mulai
+2. Jika (REAR = MAX - 1) maka
+       Tampilkan "Antrian penuh (Overflow)"
+       Selesai
+3. Jika (FRONT = -1) maka
+       FRONT ← 0          // antrian pertama kali diisi
+4. REAR ← REAR + 1
+5. Baca DATA
+6. Simpan DATA ke QUEUE[REAR]
+7. Tampilkan "Data berhasil ditambahkan ke antrian"
+8. Selesai
+*/
+
+//C.DELETE SEBUAH RECORD (DEQUEUE)
+/* 1. Mulai
+2. Jika (FRONT = -1 atau FRONT > REAR) maka
+       Tampilkan "Antrian kosong (Underflow)"
+       Selesai
+3. DATA ← QUEUE[FRONT]
+4. Tampilkan "Data ", DATA, " dihapus dari antrian"
+5. FRONT ← FRONT + 1
+6. Jika (FRONT > REAR) maka
+       FRONT ← -1
+       REAR ← -1          // reset ke kondisi kosong
+7. Selesai
+ */
+
+ //D.RESET
+ /* 1. Mulai
+2. FRONT ← -1
+3. REAR ← -1
+4. Tampilkan "Semua data dalam antrian telah dihapus (antrian kosong)"
+5. Selesai
+*/

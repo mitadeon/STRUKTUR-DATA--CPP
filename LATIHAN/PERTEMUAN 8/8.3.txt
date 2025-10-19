@@ -1,0 +1,28 @@
+Langkah-langkah Algoritma:
+
+Mulai
+
+Inisialisasi variabel Front = -1, Rear = -1, dan MAX sebagai kapasitas deque.
+
+Siapkan perulangan untuk memasukkan record satu per satu.
+
+Periksa kondisi penuh kanan:
+
+Jika (Front == 0 && Rear == MAX - 1) atau (Front == Rear + 1), maka tampilkan pesan
+“Deque penuh kanan, proses dihentikan.”
+
+Hentikan perulangan.
+
+Jika deque kosong (Front == -1), maka set Front = Rear = 0.
+
+Jika Rear == MAX - 1, maka atur Rear = 0 (bergerak melingkar).
+
+Jika tidak, naikkan Rear = Rear + 1.
+
+Masukkan data ke Deque[Rear].
+
+Tampilkan pesan “Record berhasil dimasukkan dari kanan.”
+
+Ulangi langkah 4–9 sampai deque penuh.
+
+Selesai.

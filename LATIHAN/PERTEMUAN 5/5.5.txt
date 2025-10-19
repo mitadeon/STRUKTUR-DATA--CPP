@@ -1,0 +1,10 @@
+5.	Tulis algoritma yang lengkap untuk mengambil isi Stack2 satu persatu
+dan mencetaknya ke layar monitor, sampai stack2 isinya kosong.
+Mulai
+Selama (TOP2 != MAX) lakukan langkah 3 sampai 6:
+DATA ← STACK[TOP2]
+Tampilkan "Data: ", DATA
+TOP2 ← TOP2 + 1          // Menghapus elemen (POP)
+Ulangi sampai TOP2 = MAX
+Tampilkan "Stack2 sekarang kosong"
+ Selesai

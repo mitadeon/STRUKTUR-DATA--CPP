@@ -1,0 +1,10 @@
+2. Pengertian Konsep FIFO (First In First Out)
+
+Konsep FIFO berarti data yang pertama masuk akan keluar terlebih dahulu.
+Struktur data yang menggunakan prinsip ini adalah Queue (antrian).
+Ibarat antrian di loket — orang yang datang pertama akan dilayani lebih dulu.
+Operasi utamanya adalah:
+
+ENQUEUE (INSERT) → menambah data di belakang antrian.
+
+DEQUEUE (DELETE) → menghapus data dari depan antrian.

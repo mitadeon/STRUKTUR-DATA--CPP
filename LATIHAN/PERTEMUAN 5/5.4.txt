@@ -1,0 +1,9 @@
+4.	Tulis algoritma yang lengkap untuk mengambil isi Stack1 satu persatu dan mencetaknya ke layar, sampai stack1 isinya kosong 
+Mulai
+Selama (TOP1 != -1) lakukan langkah 3 sampai 6:
+DATA ← STACK[TOP1]
+Tampilkan "Data: ", DATA
+TOP1 ← TOP1 - 1        // Menghapus elemen dari Stack1 (POP)
+Ulangi langkah 2 sampai Stack1 kosong
+Tampilkan "Stack1 sekarang kosong"
+Selesai

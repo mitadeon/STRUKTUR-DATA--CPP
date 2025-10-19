@@ -1,0 +1,17 @@
+Ciri-Ciri Double Ended Queue (Deque)
+
+a. Kosong:
+Deque kosong jika Front = -1 dan Rear = -1, artinya belum ada data sama sekali.
+
+b. Penuh kanan:
+Deque penuh di kanan bila Rear sudah di posisi akhir (MAX - 1) atau berada tepat sebelum Front, sehingga tidak bisa insert dari kanan.
+
+c. Penuh kiri:
+Deque penuh di kiri bila Front sudah di posisi awal (0) atau berada tepat setelah Rear, sehingga tidak bisa insert dari kiri.
+
+d. Penuh total:
+Deque penuh total jika seluruh elemen sudah terisi, yaitu saat (Front == 0 && Rear == MAX - 1) atau (Front == Rear + 1), sehingga tak bisa diisi dari kedua sisi.
+
+e. Berisi 10 pengantri:
+Deque berisi 10 elemen berarti ada 10 data aktif di dalam antrian, dihitung dengan rumus
+(Rear - Front + MAX) % MAX + 1 = 10.

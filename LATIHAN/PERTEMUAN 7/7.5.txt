@@ -1,0 +1,26 @@
+Menentukan jumlah elemen yang sedang berisi data di dalam Circular Queue, 
+hanya berdasarkan nilai Front (F) dan Rear (R), 
+tanpa menggunakan variabel penghitung.
+
+Langkah-langkah Algoritma:
+
+Mulai
+
+Diketahui nilai F (Front), R (Rear), dan MAX (kapasitas total queue).
+
+Jika antrian kosong, yaitu F == -1, maka:
+
+Tampilkan pesan “Jumlah elemen = 0”.
+
+Selesai.
+
+Jika R >= F, maka jumlah elemen dihitung dengan:
+jumlah elemen = (MAX -F)+(R+1)
+
+Jika R < F, artinya posisi Rear sudah melingkar melewati Front, 
+maka jumlah elemen dihitung dengan:
+Jumlah elemen = (MAX - F) + (R + 1)
+
+Cetak hasil perhitungan jumlah elemen yang berisi.
+
+Selesai.

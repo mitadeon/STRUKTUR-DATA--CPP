@@ -9,7 +9,6 @@ int main() {
     cout << "Masukkan bilangan B: ";
     cin >> B;
 
-    
     temp = A;
     A = B;
     B = temp;

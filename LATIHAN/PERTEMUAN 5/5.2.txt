@@ -1,0 +1,28 @@
+2.	Tulislah Algoritma Dasar dari: 
+a.	Mengisi Stack1 (PUSH1) 
+Void PUSH1 () 
+     { 
+Top1 = Top1 + 1; 
+S[Top1] = x ; 
+      }
+
+b.	Menghapus isi Stack1 (POP1) 
+Void POP1 () 
+     { 
+X = S[Top1] ; 
+Top1 = Top1 - 1; 
+      }
+
+c.	Mengisi Stack2 (PUSH2)
+Void PUSH1 () 
+     { 
+Top2 = Top2 - 1; 
+S[Top2] = x ; 
+     }
+ 
+d.	Menghapus isi Stack2 (POP2)
+Void POP1 () 
+    { 
+X = S[Top2] ; 
+Top2 = Top2 - 1; 
+     }
