@@ -1,0 +1,26 @@
+NO 1. 
+A.sebutkan nama-nama pointer sesuai dengan nomornya 
+
+no 3 = L (pointer ke node pertama /head)
+no 4 = Q (pointer ke node terakhir/tail)
+no 7 = RIGHT node pertama dan LEFT node kedua
+no 8 = alamat node kedua
+no 0 = NULL (tidak menunjukan ke mana pun)
+
+B.sebutkan pointer yang nilainya sama
+pointer yang nilainya sama artinya mereka menunjukan ke alamat yang sama.
+
+pointer 1 : RIGHT node pertama 
+pointer 2 : LEFT node kedua 
+nilai sama = 7 
+keduanya menunjuk ke node yang sama.
+
+pointer 1 : LEFT node pertama 
+pointer 2 : NUUL  
+nilai sama = 0
+Karena tidak ada node di sebelah kiri.
+
+pointer 1 : RIGHT node ke dua 
+pointer 2 : Q 
+nilai = 0
+Node terakhir menunjuk ke NULL (akhir list).
